@@ -24,6 +24,11 @@ input{
 table {
 	width: 100%;
 }
+
+.btn-primary{
+	padding:0px !important;
+	height: 32px;
+}
 .title{
 	text-align: center;
 	font-size:14px;
@@ -38,7 +43,7 @@ table {
 
 #connexion
 {
-	width: 32px;
+	width:32px;
 	height:32px;
 }
 
@@ -46,6 +51,7 @@ table {
 {
 	width:32px;
 	height:32px;
+	padding-top: 7px;
 }
 
 #logo

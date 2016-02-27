@@ -2,37 +2,44 @@
 <head>
 	<meta charset="utf-8">
 	<title>DommagePourToiKevin</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+
 	<table>
 		<tr>	
 			<td>
 				<div id="logo">
-					<img src="icon.png" id="icon">
+					<img src="img/icon.png" id="logo">
 				</div>
 			</td>
 			<td>
 				<p class="title">Dommage Pour Toi Kevin</p>
 				</td>
 			<td>
-				<div id="connexion">
-					<img src="cog.jpg" id="icon">
-				</div>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+						<span class="glyphicon glyphicon-cog" id="icon"></span>
+						<!--<img src="img/cog.jpg" >-->
+				</button>
+
 			</td>
 		</tr>
 	</table>
-	<input type="text" id="email" name="Email" class="form-control" value="" placeholder="Email">
-	<input type="password"  id="password" class="form-control" placeholder="Password">
-	<center><input  id="submit" class="btn btn-default" type="submit"></center>
-	<p id="inscription">S'inscrire</p>
-	<div id="remove">
-		<p> Remove on this page </p>
-		<p> Remove on this domain </p>
+	<div class="collapse" id="collapseExample">
+		<input type="text" id="email" name="Email" class="form-control" value="" placeholder="Email">
+		<input type="password"  id="password" class="form-control" placeholder="Password">
+		<center><input  id="submit" class="btn btn-default" type="submit"></center>
+		<p id="inscription">S'inscrire</p>
 	</div>
-	<script src="jquery-2.2.1.min.js"></script>
-	<script src="firebase.js"></script>
-	<script src="popup.js"></script>
+	<div id="remove">
+		<p id="page" >Remove on this page</p>
+		<p id="domain" >Remove on this domain</p>
+		<p id="signaler" >Signaler</p>
+	</div>
+	<script src="js/jquery-2.2.1.min.js"></script>
+	<script src="js/firebase.js"></script>
+	<script src="js/popup.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

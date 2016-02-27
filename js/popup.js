@@ -26,6 +26,16 @@ $("#connexion").click(function(){
 	//ouvrir le login ?
 });
 
+$("#inscription").mouseover(function() {
+    $(this).css("text-decoration","underline");
+    $(this).css("cursor","pointer");
+});
+
+$("#inscription").mouseout(function() {
+  $(this).css("text-decoration","");
+  $(this).css("cursor","");
+});
+
 $("#inscription").click(function(){
 	chrome.tabs.create({url: "http://www.google.com"});
 });
