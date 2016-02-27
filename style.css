@@ -1,0 +1,23 @@
+/*Base*/
+
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+body{
+	background-color: #4C02F3;
+	height: 350px;
+	width: 300px;
+}
+
+p{
+	color: white;
+	font-family: 'Rock Salt', cursive;
+}
+
+.title{
+	text-align: center;
+}
+
+
+/* Utility class */
+
+/*other*/

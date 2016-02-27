@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name":"Dommage pour toi Kevin",
+	"description": "See internet like nobody",
+	"version": "1.0",
+	"browser_action":
+	{
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
