@@ -12,6 +12,6 @@
 	{
 		"matches": ["http://www.google.com/*"],
 		"css": ["style.css"],
-		"js": ["jquery-2.2.1.min.js", "popup.js"]
+		"js": ["jquery-2.2.1.min.js", "popup.js", "firebase.js"]
 	}]
 }
