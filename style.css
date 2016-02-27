@@ -3,18 +3,31 @@
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 
 body{
-	background-color: #000000;
+	background-color: #6F79F3 !important;
 	height: 350px;
 	width: 300px;
+	margin: 8px !important;
 }
 
 p{
 	color: white;
-	font-family: 'Rock Salt', cursive;
 }
 
+a{
+	color :white !important;
+}
+
+input{
+	margin-bottom: 5px !important;
+}
+
+table {
+	width: 100%;
+}
 .title{
 	text-align: center;
+	font-size:14px;
+	font-family: 'Rock Salt', cursive;
 }
 
 #remove
@@ -23,6 +36,23 @@ p{
    height:60px;
 }
 
+#connexion
+{
+	width: 32px;
+	height:32px;
+}
+
+#icon
+{
+	width:32px;
+	height:32px;
+}
+
+#logo
+{
+	width:32px;
+	height:32px;
+}
 
 /* Utility class */
 

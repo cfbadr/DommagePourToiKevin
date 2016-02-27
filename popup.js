@@ -1,7 +1,6 @@
 
 var ref = new Firebase('https://burning-torch-2085.firebaseio.com/');
 
-
 var submitBtn = document.getElementById("submit");
 submitBtn.addEventListener("click", connect)
 
@@ -18,3 +17,15 @@ function connect() {
   	}
 	});
 }
+
+$("#submit").click(function(){
+	// appel ajax, enregistrement ? ici ou sur la landing page ?
+});
+
+$("#connexion").click(function(){
+	//ouvrir le login ?
+});
+
+$("#inscription").click(function(){
+	chrome.tabs.create({url: "http://www.google.com"});
+});
