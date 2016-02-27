@@ -56,7 +56,7 @@
 .wPaint-theme-standard .wPaint-menu-alignment-vertical .wPaint-menu-handle{width:39px;height:30px;margin-bottom:5px;border-top-left-radius:7px;border-top-right-radius:7px}
 .wPaint-theme-classic .wPaint-menu-holder{border-color:#dadada;background-color:#f0f0f0}
 .wPaint-theme-classic .wPaint-menu-handle{background-color:#dadada;-webkit-box-shadow:inset 1px 1px 3px #fff;box-shadow:inset 1px 1px 3px #fff;border-color:#dadada}
-.wPaint-theme-classic .wPaint-menu-icon{border-color:#b9b9b9;background-color:#b9b9b9;-webkit-box-shadow:inset 2px 2px 3px #eee,1px 1px 2px #666;box-shadow:inset 2px 2px 3px #eee,1px 1px 2px #666}
+.wPaint-theme-classic .wPaint-menu-icon{border-color:#b9b9b9;-webkit-box-shadow:inset 2px 2px 3px #eee,1px 1px 2px #666;box-shadow:inset 2px 2px 3px #eee,1px 1px 2px #666}
 .wPaint-theme-classic .wPaint-menu-icon.hover,.wPaint-theme-classic .wPaint-menu-icon.active{border-color:#9cf;background-color:#acf}
 .wPaint-theme-classic .wPaint-menu-icon-img{color:#696969}
 .wPaint-theme-classic .wPaint-menu-select-holder{border-color:#cacaca}

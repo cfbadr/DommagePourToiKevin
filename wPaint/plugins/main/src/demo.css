@@ -57,7 +57,7 @@ header {
     height: 20px;
     left: 10px;
     top: 10px;
-    background-image: url('./img/websanova-logo-small-full-black.png');
+    background-image: url('../../../demo/img/websanova-logo-small-full-black.png');
 }
 #header-links {
     display: none;
@@ -179,14 +179,14 @@ footer {
     background-repeat: no-repeat;
     background-position: center center;
 }
-#linkedin-icon { background-image: url('./img/linkedin-icon.png'); width: 18px; }
-#stumbleupon-icon { background-image: url('./img/stumbleupon-icon.png'); }
-#googleplus-icon { background-image: url('./img/googleplus-icon.png'); }
-#youtube-icon { background-image: url('./img/youtube-icon.png'); width: 17px; height: 18px; }
-#facebook-icon { background-image: url('./img/facebook-icon.png'); width: 8px; }
-#twitter-icon { background-image: url('./img/twitter-icon.png'); width: 20px; }
-#github-icon { background-image: url('./img/github-icon.png'); width: 20px; }
-#rss-icon { background-image: url('./img/rss-icon.png'); }
+#linkedin-icon { background-image: url('../../../demo/img/linkedin-icon.png'); width: 18px; }
+#stumbleupon-icon { background-image: url('../../../demo/img/stumbleupon-icon.png'); }
+#googleplus-icon { background-image: url('../../../demo/img/googleplus-icon.png'); }
+#youtube-icon { background-image: url('../../../demo/img/youtube-icon.png'); width: 17px; height: 18px; }
+#facebook-icon { background-image: url('../../../demo/img/facebook-icon.png'); width: 8px; }
+#twitter-icon { background-image: url('../../../demo/img/twitter-icon.png'); width: 20px; }
+#github-icon { background-image: url('../../../demo/img/github-icon.png'); width: 20px; }
+#rss-icon { background-image: url('../../../demo/img/rss-icon.png'); }
 
 
 /*** media ***/
