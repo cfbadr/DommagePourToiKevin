@@ -11,3 +11,15 @@ ref.authWithPassword({
     console.log("Authenticated successfully with payload:", authData);
   }
 });
+
+$("#submit").click(function(){
+	// appel ajax, enregistrement ? ici ou sur la landing page ?
+});
+
+$("#connexion").click(function(){
+	//ouvrir le login ?
+});
+
+$("#inscription").click(function(){
+	chrome.tabs.create({url: "http://www.google.com"});
+});
