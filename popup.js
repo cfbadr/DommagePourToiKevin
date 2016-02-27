@@ -1,3 +1,4 @@
+
 var ref = new Firebase('https://burning-torch-2085.firebaseio.com/');
 
 ref.authWithPassword({
